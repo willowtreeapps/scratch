@@ -22,6 +22,7 @@
             <prop name="artifactoryReleaseUrl">http://artifacts.willowtreeapps.com:8081/artifactory/libs-release/</prop>
             <prop name="localMavenUrl">http://maven.willowtreeapps.com/repository/internal</prop>
             <prop name="artifactorySnapshotUrl">http://artifacts.willowtreeapps.com:8081/artifactory/libs-snapshot/</prop>
+            <prop name="version">0.1.0</prop>
             <prop name="artifactoryPluginReleaseUrl">http://artifacts.willowtreeapps.com:8081/artifactory/plugins-release/</prop>
             <task name="projects" type="org.gradle.api.tasks.diagnostics.ProjectReportTask">Displays the sub-projects of root project 'Scratch'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
             <task name="packageReleaseResources" type="com.android.build.gradle.tasks.MergeResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
@@ -245,6 +246,7 @@
             <prop name="artifactoryReleaseUrl">http://artifacts.willowtreeapps.com:8081/artifactory/libs-release/</prop>
             <prop name="localMavenUrl">http://maven.willowtreeapps.com/repository/internal</prop>
             <prop name="artifactorySnapshotUrl">http://artifacts.willowtreeapps.com:8081/artifactory/libs-snapshot/</prop>
+            <prop name="version">0.1.0</prop>
             <prop name="artifactoryPluginReleaseUrl">http://artifacts.willowtreeapps.com:8081/artifactory/plugins-release/</prop>
             <task name="projects" type="org.gradle.api.tasks.diagnostics.ProjectReportTask">Displays the sub-projects of project ':sampleapp'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
             <task name="resolveDebugDependencies" type="com.android.build.gradle.internal.tasks.ResolveDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
@@ -525,6 +527,7 @@
             <prop name="artifactoryReleaseUrl">http://artifacts.willowtreeapps.com:8081/artifactory/libs-release/</prop>
             <prop name="localMavenUrl">http://maven.willowtreeapps.com/repository/internal</prop>
             <prop name="artifactorySnapshotUrl">http://artifacts.willowtreeapps.com:8081/artifactory/libs-snapshot/</prop>
+            <prop name="version">0.1.0</prop>
             <prop name="artifactoryPluginReleaseUrl">http://artifacts.willowtreeapps.com:8081/artifactory/plugins-release/</prop>
             <task name="mergeDebugProguardFiles" type="com.android.build.gradle.internal.tasks.MergeFileTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="projects" type="org.gradle.api.tasks.diagnostics.ProjectReportTask">Displays the sub-projects of project ':scratchlib'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
@@ -808,6 +811,7 @@
             <prop name="artifactoryReleaseUrl">http://artifacts.willowtreeapps.com:8081/artifactory/libs-release/</prop>
             <prop name="localMavenUrl">http://maven.willowtreeapps.com/repository/internal</prop>
             <prop name="artifactorySnapshotUrl">http://artifacts.willowtreeapps.com:8081/artifactory/libs-snapshot/</prop>
+            <prop name="version">0.1.0</prop>
             <prop name="artifactoryPluginReleaseUrl">http://artifacts.willowtreeapps.com:8081/artifactory/plugins-release/</prop>
             <task name="mergeDebugProguardFiles" type="com.android.build.gradle.internal.tasks.MergeFileTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="projects" type="org.gradle.api.tasks.diagnostics.ProjectReportTask">Displays the sub-projects of project ':scratchlib-no-op'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
@@ -1091,6 +1095,7 @@
             <prop name="artifactoryReleaseUrl">http://artifacts.willowtreeapps.com:8081/artifactory/libs-release/</prop>
             <prop name="localMavenUrl">http://maven.willowtreeapps.com/repository/internal</prop>
             <prop name="artifactorySnapshotUrl">http://artifacts.willowtreeapps.com:8081/artifactory/libs-snapshot/</prop>
+            <prop name="version">0.1.0</prop>
             <prop name="artifactoryPluginReleaseUrl">http://artifacts.willowtreeapps.com:8081/artifactory/plugins-release/</prop>
             <task name="projects" type="org.gradle.api.tasks.diagnostics.ProjectReportTask">Displays the sub-projects of project ':scratchtileapp'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
             <task name="resolveDebugDependencies" type="com.android.build.gradle.internal.tasks.ResolveDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>

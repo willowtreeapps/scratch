@@ -1,21 +1,25 @@
 package com.willowtreeapps.scratchlib
 
+import android.annotation.TargetApi
 import android.app.ActivityManager
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Context.ACTIVITY_SERVICE
 import android.content.Intent
+import android.os.Build
 import android.util.Log
 
-
+@TargetApi(19)
 class ScratchReceiver : BroadcastReceiver() {
     override fun onReceive(context: Context?, intent: Intent?) {
-        if (isInForeground()) {
-            sendRestartBroadcast(context)
-            Log.d("Scratch", "Scratch Broadcast Received")
-            val status = (context?.getSystemService(ACTIVITY_SERVICE) as ActivityManager)
-                    .clearApplicationUserData()
-            Log.d("Scratch", "Scratch cleared data: " + status)
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+            if (isInForeground()) {
+                sendRestartBroadcast(context)
+                Log.d("Scratch", "Scratch Broadcast Received")
+                val status = (context?.getSystemService(ACTIVITY_SERVICE) as ActivityManager)
+                        .clearApplicationUserData()
+                Log.d("Scratch", "Scratch cleared data: " + status)
+            }
         }
     }
 
