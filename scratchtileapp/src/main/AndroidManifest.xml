@@ -22,6 +22,14 @@
         <receiver tools:replace="android:enabled" android:name="com.willowtreeapps.scratchlib.ScratchReceiver" android:exported="true" android:enabled="false">
 
         </receiver>
+        <receiver
+            android:name=".CleanReceiver"
+            android:exported="true"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="com.willowtreeapps.scratch.RESTART" />
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>
