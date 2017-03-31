@@ -11,7 +11,7 @@ import android.util.Log
 class ScratchReceiver : BroadcastReceiver() {
     override fun onReceive(context: Context?, intent: Intent?) {
         if (isInForeground()) {
-            restartAfterClean(context)
+            sendRestartBroadcast(context)
             Log.d("Scratch", "Scratch Broadcast Received")
             val status = (context?.getSystemService(ACTIVITY_SERVICE) as ActivityManager)
                     .clearApplicationUserData()
@@ -19,7 +19,7 @@ class ScratchReceiver : BroadcastReceiver() {
         }
     }
 
-    private fun restartAfterClean(context: Context?) {
+    private fun sendRestartBroadcast(context: Context?) {
         val intent = getLaunchActivity(context)
         val restartBroadcastIntent = Intent("com.willowtreeapps.scratch.RESTART")
         restartBroadcastIntent.putExtra("restartIntent", intent)
