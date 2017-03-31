@@ -28,8 +28,8 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    debugCompile project(":scratchlib")
-    releaseCompile project(":scratchlib-no-op")
+    debugCompile 'com.github.willowtreeapps.scratch:scratchlib:0.1.0'
+    releaseCompile 'com.github.willowtreeapps.scratch:scratchlib-no-op:0.1.0'
     compile 'com.android.support:appcompat-v7:25.3.1'
     testCompile 'junit:junit:4.12'
     compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
