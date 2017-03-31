@@ -17,6 +17,7 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
+        maven { url 'https://jitpack.io' }
     }
 }
 
@@ -27,3 +28,4 @@ task clean(type: Delete) {
 def String buildVersionNumber() {
     return '0.1.0'
 }
+
