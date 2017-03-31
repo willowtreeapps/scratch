@@ -6,7 +6,7 @@ import android.util.Log
 
 class ScratchTileService : TileService() {
     override fun onClick() {
-        sendBroadcast(Intent(getString(R.string.scratch_intent)))
+        sendBroadcast(Intent("com.willowtreeapps.scratch.CLEAR_DATA"))
         Log.d("Scratch", "Scratch Broadcast Sent")
     }
 
