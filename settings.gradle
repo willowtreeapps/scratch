@@ -1,0 +1,1 @@
+include ':scratchtileapp', ':scratchlib', ':sampleapp'
