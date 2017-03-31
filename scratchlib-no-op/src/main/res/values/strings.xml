@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">scratchlib-no-op</string>
+    <string name="scratch_intent">com.willowtreeapps.scratch.CLEAR_DATA</string>
+    <string name="scratch_permission">com.willowtreeapps.scratch.permission.SCRATCH</string>
+</resources>

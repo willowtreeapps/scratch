@@ -1,4 +1,6 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.willowtreeapps.scratchlib">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.willowtreeapps.scratchlib_no_op">
+
     <application>
         <receiver
             android:name="com.willowtreeapps.scratchlib.ScratchReceiver"

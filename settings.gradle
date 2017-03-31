@@ -1,1 +1,1 @@
-include ':scratchtileapp', ':scratchlib', ':sampleapp'
+include ':scratchtileapp', ':scratchlib', ':sampleapp', ':scratchlib-no-op'
