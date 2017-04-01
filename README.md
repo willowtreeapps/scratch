@@ -14,8 +14,8 @@ repositories {
 ```
 ```groovy
 dependencies {
-    debugCompile 'com.github.willowtreeapps.scratch:scratchlib:0.1.1'
-    releaseCompile 'com.github.willowtreeapps.scratch:scratchlib-no-op:0.1.1'
+    debugCompile 'com.github.willowtreeapps.scratch:scratchlib:0.1.2'
+    releaseCompile 'com.github.willowtreeapps.scratch:scratchlib-no-op:0.1.2'
 }
 ```
 
