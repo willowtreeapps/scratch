@@ -1,9 +1,12 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.willowtreeapps.scratchlib">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.willowtreeapps.scratchlib">
     <application>
         <receiver
             android:name="com.willowtreeapps.scratchlib.ScratchReceiver"
             android:exported="true"
-            android:enabled="true">
+            android:enabled="true"
+            tools:ignore="ExportedReceiver">
             <intent-filter>
                 <action android:name="com.willowtreeapps.scratch.CLEAR_DATA" />
             </intent-filter>
