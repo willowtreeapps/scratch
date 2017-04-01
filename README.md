@@ -19,7 +19,9 @@ dependencies {
 }
 ```
 
-Then install the ScratchTile app. Add the Scratch Quick Settings Tile to your notification drawer and when you want a fresh slate, press it to clear your app's user data (it has to be in the foreground.)
+Then install the ScratchTile app. 
+
+Add the Scratch Quick Settings Tile to your notification drawer and when you want a fresh slate, press it to clear your app's user data and relaunch (it has to be in the foreground.)
 
 ## License
     Copyright 2017 WillowTree, inc
