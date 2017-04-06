@@ -19,7 +19,7 @@ dependencies {
 }
 ```
 
-Then install the ScratchTile app. 
+Then install the [ScratchTile app.](https://play.google.com/store/apps/details?id=com.willowtreeapps.scratch) 
 
 Add the Scratch Quick Settings Tile to your notification drawer and when you want a fresh slate, press it to clear your app's user data and relaunch (it has to be in the foreground.)
 
